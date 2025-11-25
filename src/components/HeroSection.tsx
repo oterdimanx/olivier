@@ -20,7 +20,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="border-8 border-foreground p-8 md:p-16 bg-background shadow-2xl">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 font-mono">
-              OLIVIER TERDIMAN <br/> DEVELOPPEMENT
+              OLIVIER TERDIMAN <br/> DÉVELOPPEMENT
             </h1>
             <p className="text-xl md:text-2xl mb-8 font-mono">
               Innovation, Création, Migrations, Résolution de problèmes grâce à la puissance du code et des nouvelles technologies.
