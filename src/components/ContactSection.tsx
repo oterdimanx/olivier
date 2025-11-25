@@ -1,11 +1,12 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Instagram, Linkedin, Mail, Twitter } from "lucide-react";
 import { Button } from "./ui/button";
 
 const ContactSection = () => {
   const socialLinks = [
     { icon: Github, label: "GitHub", href: "https://github.com/oterdimanx" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://fr.linkedin.com/in/terdiman-olivier-207356138" },
     { icon: Twitter, label: "Twitter", href: "https://twitter.com/NanoMeT" },
+    { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/rouks.dome/" },
     { icon: Mail, label: "Email", href: "mailto:olivier@terdiman.fr" }
   ];
 

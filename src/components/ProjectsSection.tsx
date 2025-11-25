@@ -4,31 +4,31 @@ import { Button } from "./ui/button";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack web application with payment integration, user authentication, and real-time inventory management.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "#",
+      title: "Plateforme E-Commerce",
+      description: "Application Full Stack avec intégration de module de paiement, authentification, gestion de l'inventaire et des commandes en temps réel.",
+      tech: ["React", "Nextjs", "MongoDB", "Paypal/Stripe", "Redux toolkit"],
+      github: "https://github.com/oterdimanx/classic-portfolio",
       demo: "#"
     },
     {
-      title: "AI Chat Assistant",
-      description: "Machine learning powered chatbot using natural language processing for customer support automation.",
-      tech: ["Python", "TensorFlow", "Flask", "Docker"],
-      github: "#",
+      title: "Image Editing Tool with IA Assistance Neo Manuals",
+      description: "Outil d'édition d'images destiné à générer des booklets/manuels en format PDF",
+      tech: ["React", "Vite", "Typescript", "Express", "Toastify", "OpenAI", "Replicate"],
+      github: "https://github.com/oterdimanx/neo-geo-manuals",
       demo: "#"
     },
     {
-      title: "Task Management System",
-      description: "Collaborative project management tool with real-time updates, team collaboration features, and analytics.",
-      tech: ["Vue.js", "Express", "PostgreSQL", "Socket.io"],
-      github: "#",
+      title: "Reference-web.com",
+      description: "Outil de gestion de mots clés et d'optimisation du référencement, analytics, event tracking, performances monitoring.",
+      tech: ["React", "TypeScript", "PostgreSQL", "Shadcn/ui", "TailwindCSS"],
+      github: "https://github.com/oterdimanx/reference-web",
       demo: "#"
     },
     {
-      title: "Weather Dashboard",
-      description: "Interactive weather application with data visualization, forecasts, and location-based services.",
-      tech: ["React", "TypeScript", "Chart.js", "OpenWeather API"],
-      github: "#",
+      title: "Gamelists Manager",
+      description: "Gamelist Manager is a Node.js application designed to help retro gaming enthusiasts manage and merge EmulationStation gamelists (XML files) for systems like MAME, Megadrive, Game Gear, and other retrogaming systems.",
+      tech: ["React", "TypeScript", "Netlify", "MongoDB"],
+      github: "https://github.com/oterdimanx/Gamelist-Manager",
       demo: "#"
     }
   ];
