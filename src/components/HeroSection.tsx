@@ -20,12 +20,10 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="border-8 border-foreground p-8 md:p-16 bg-background shadow-2xl">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 font-mono">
-              COMPUTER SCIENCE
-              <br />
-              ENGINEER
+              OLIVIER TERDIMAN <br/> DEVELOPPEMENT
             </h1>
             <p className="text-xl md:text-2xl mb-8 font-mono">
-              Building innovative solutions through code
+              Innovation, Création, Migrations, Résolution de problèmes grâce à la puissance du code et des nouvelles technologies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -33,7 +31,7 @@ const HeroSection = () => {
                 onClick={() => scrollToSection("projects")}
                 className="font-mono text-lg border-4 border-foreground shadow-md hover:shadow-lg transition-all"
               >
-                VIEW WORK
+                MES TRAVAUX
               </Button>
               <Button
                 size="lg"
@@ -41,7 +39,7 @@ const HeroSection = () => {
                 onClick={() => scrollToSection("contact")}
                 className="font-mono text-lg border-4 border-foreground shadow-md hover:shadow-lg transition-all"
               >
-                GET IN TOUCH
+                CONTACTEZ MOI
               </Button>
             </div>
           </div>

@@ -2,7 +2,7 @@ const SkillsSection = () => {
   const skillCategories = [
     {
       category: "LANGUAGES",
-      skills: ["Python", "JavaScript/TypeScript", "Java", "C++", "SQL"]
+      skills: ["JavaScript/TypeScript", "Python", "SQL", "PHP"]
     },
     {
       category: "FRONTEND",
@@ -14,7 +14,7 @@ const SkillsSection = () => {
     },
     {
       category: "TOOLS & OTHER",
-      skills: ["Git", "Docker", "AWS", "Linux", "Agile/Scrum"]
+      skills: ["Git", "Linux", "Agile/Scrum", "Netlify", "AWS", "Vercel"]
     }
   ];
 

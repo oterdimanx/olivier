@@ -4,7 +4,7 @@ const AboutSection = () => {
   const highlights = [
     {
       icon: Code2,
-      title: "CLEAN CODE",
+      title: "CODE PROPRE",
       description: "Writing maintainable, scalable, and efficient software solutions"
     },
     {
@@ -23,19 +23,21 @@ const AboutSection = () => {
     <section id="about" className="py-20 bg-secondary">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl md:text-6xl font-bold mb-12 font-mono border-b-8 border-foreground inline-block pb-4">
-          ABOUT
+          A PROPOS DE MOI
         </h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg md:text-xl mb-6">
-              I'm a passionate Computer Science Engineer dedicated to creating impactful digital solutions. 
-              With a strong foundation in software development and a keen eye for detail, I transform complex 
-              problems into elegant, efficient code.
+              Passionné par les hautes technologies et la programmation, je passe mon temps à trouver des solutions à des problèmes concrets, 
+              à travers des techniques innovantes ou solidement éprouvées. Depuis toujours dans la création de softwares, je pose mon regard aiguisé sur les projets 
+              et transforme des cauchemars de programmation en code structuré, fonctionnel, simplifié et efficace.
             </p>
             <p className="text-lg md:text-xl">
-              My approach combines technical expertise with creative problem-solving, ensuring that every 
-              project I work on is both functionally robust and user-friendly.
+              Préoccupé par la satisfaction des clients, mon approche est une constante prise de recul pour rentrer dans la peau des utilisateurs, 
+              afin d'optimiser au mieux leurs expériences respectives.
+              Mon approche combine l'expertise technique avec la résolution de problèmes pour avancer toujours plus loin dans la simplification des process 
+              en privilégiant l'efficacité du code et l'expérience utilisateur.
             </p>
           </div>
 

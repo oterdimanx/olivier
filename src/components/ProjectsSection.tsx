@@ -37,7 +37,7 @@ const ProjectsSection = () => {
     <section id="projects" className="py-20 bg-secondary">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl md:text-6xl font-bold mb-12 font-mono border-b-8 border-foreground inline-block pb-4">
-          PROJECTS
+          PROJETS
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">

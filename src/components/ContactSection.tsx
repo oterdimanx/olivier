@@ -3,10 +3,10 @@ import { Button } from "./ui/button";
 
 const ContactSection = () => {
   const socialLinks = [
-    { icon: Github, label: "GitHub", href: "https://github.com" },
+    { icon: Github, label: "GitHub", href: "https://github.com/oterdimanx" },
     { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-    { icon: Twitter, label: "Twitter", href: "https://twitter.com" },
-    { icon: Mail, label: "Email", href: "mailto:contact@example.com" }
+    { icon: Twitter, label: "Twitter", href: "https://twitter.com/NanoMeT" },
+    { icon: Mail, label: "Email", href: "mailto:olivier@terdiman.fr" }
   ];
 
   return (
@@ -18,9 +18,10 @@ const ContactSection = () => {
 
         <div className="max-w-2xl mx-auto">
           <div className="border-8 border-foreground p-8 md:p-12 bg-secondary shadow-2xl text-center">
-            <h3 className="text-3xl font-bold font-mono mb-4">LET'S WORK TOGETHER</h3>
+            <h3 className="text-3xl font-bold font-mono mb-4">TRAVAILLONS ENSEMBLE</h3>
             <p className="text-lg md:text-xl mb-8">
-              I'm always interested in hearing about new projects and opportunities.
+              Je suis toujours interessé par de nouveaux projets et opportunités de business.
+              Envoyez moi un message et je vous répondrai avec plaisir.
             </p>
             
             <Button
@@ -30,12 +31,12 @@ const ContactSection = () => {
             >
               <a href="mailto:contact@example.com">
                 <Mail size={20} className="mr-2" />
-                SEND MESSAGE
+                ENVOYER MESSAGE
               </a>
             </Button>
 
             <div className="border-t-4 border-foreground pt-8 mt-8">
-              <p className="font-mono mb-6">CONNECT WITH ME</p>
+              <p className="font-mono mb-6">FOLLOW ME</p>
               <div className="flex justify-center gap-4">
                 {socialLinks.map((link, index) => {
                   const Icon = link.icon;
@@ -66,7 +67,7 @@ const ContactSection = () => {
 
       <footer className="mt-20 py-6 border-t-4 border-foreground text-center">
         <p className="font-mono text-sm text-muted-foreground">
-          © 2024 CS.DEV | Built with React & Tailwind CSS
+          © 2025 OLIVIER TERDIMAN - DEVELOPPEMENT APPLICATIF | React & Tailwind CSS
         </p>
       </footer>
     </section>

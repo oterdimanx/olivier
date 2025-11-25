@@ -15,7 +15,7 @@ const Navigation = () => {
     <nav className="fixed top-0 w-full bg-background border-b-4 border-border z-50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <h2 className="text-2xl font-bold font-mono">CS.DEV</h2>
+          <h2 className="text-2xl font-bold font-mono">O.T</h2>
           
           <div className="hidden md:flex gap-8">
             {["about", "skills", "projects", "contact"].map((item) => (
